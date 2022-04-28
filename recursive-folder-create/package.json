@@ -1,0 +1,24 @@
+{
+  "name": "bits-of-code-by-me",
+  "version": "1.0.0",
+  "description": "Bits of code that I've done and have been happy with - some me being clever, some me being stupid, some useful snippets, some you may say 'there's an npm package for that'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjawsum/bits-of-code-by-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjawsum/bits-of-code-by-me/issues"
+  },
+  "homepage": "https://github.com/jjawsum/bits-of-code-by-me#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "luxon": "^2.3.2",
+    "yargs": "^17.4.1"
+  }
+}
