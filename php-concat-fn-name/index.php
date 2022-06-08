@@ -34,10 +34,10 @@ return $weather;
 
 // you can do this: 
 $weatherFunctions = ['Temperature', 'Humidity', 'WindSpeed', 'PrecipitationChance', 'PrecipitationDensity'];
-$weather2 = [];
+$weather = [];
 foreach ($weatherFunctions as $weatherFunction) {
     $functionName = 'get' . $weatherFunction;
-    $weather2[] = $functionName();
+    $weather[] = $functionName();
 }
-return $weather2;
+return $weather;
 
