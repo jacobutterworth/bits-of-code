@@ -6,7 +6,7 @@ Node app that takes in 2 dates with a -s start and -e end flag respectively, and
 ## To run:
 ```bash
 git clone this repo 
-cd bits-of-code-by-me 
+cd bits-of-code
 cd recursive-folder-create 
 npm install 
 node app.js -s 2022-04-27T00:00:00.000Z -e 2022-06-20T23:59:59.295Z
